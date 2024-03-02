@@ -71,6 +71,17 @@
     }
 }
 
+@media screen and ( max-height: 600px ) {
+    #profile {
+        height: 100vh;
+        margin-bottom: 6rem;
+    }
+    section {
+        margin: 20% 10%;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     #contact, 
     footer {
@@ -136,8 +147,14 @@
     .article-container {
         height: 30%;
     }
+}
 
-
-
-
+@media screen and ( max-width: 600px ) and ( max-height: 400px ) {
+    #profile {
+        height: 180vh;
+        margin-bottom: 6rem;
+    }
+    section {
+        margin: 20% 10%;
+    }
 }
