@@ -148,9 +148,9 @@ a:hover {
 /* SECTIONS */
 
 section {
+    position: relative;
     padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
+    margin: 10% 10%;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -274,12 +274,18 @@ section {
 }
 
 .about-details-container {
-    justify-content: center;
     flex-direction: column;
 }
 
 .about-containers, .about-details-container {
     display: flex;
+}
+
+.section-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .about-pic {

@@ -50,6 +50,27 @@
     }
 }
 
+@media screen and ( max-width: 1000px ) {
+    #profile {
+        height: 90vh;
+        margin-bottom: 6rem;
+    }
+    section {
+        margin: 20% 10%;
+    }
+
+}
+
+@media screen and ( max-width: 800px ) {
+    #profile {
+        height: 150vh;
+        margin-bottom: 6rem;
+    }
+    section {
+        margin: 20% 10%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #contact, 
     footer {
